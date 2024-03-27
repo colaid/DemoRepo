@@ -15,6 +15,7 @@ public class TestThree extends base {
 	@Test
 	public void TesThreeMed() throws IOException
 	{
+		System.out.println("This is third updatet");
 		System.out.println("This is TestThree");
 	 driver=initializeBrowser();
 		driver.get("https://google.com/");
