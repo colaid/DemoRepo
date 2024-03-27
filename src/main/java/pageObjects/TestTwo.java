@@ -14,6 +14,7 @@ public class TestTwo extends base{
 	@Test
 	public void TestTworMed() throws IOException
 	{
+		System.out.println("This is updated by pruvi");
 		System.out.println("This is TestTwo");
 		driver=initializeBrowser();
 		driver.get("https://www.w3schools.com/");
