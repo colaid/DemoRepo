@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-23T22:57:15 CDT" name="Suite" finished-at="2024-03-23T22:57:32 CDT" duration-ms="17749">
+    <groups>
+    </groups>
+    <test started-at="2024-03-23T22:57:15 CDT" name="Test" finished-at="2024-03-23T22:57:32 CDT" duration-ms="17749">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="start()[pri:0, instance:tests.LoginTest@123ef382]" started-at="2024-03-23T22:57:15 CDT" name="start" finished-at="2024-03-23T22:57:21 CDT" duration-ms="6789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="login()[pri:0, instance:tests.LoginTest@123ef382]" started-at="2024-03-23T22:57:21 CDT" name="login" finished-at="2024-03-23T22:57:32 CDT" duration-ms="10782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.LoginTest@123ef382]" started-at="2024-03-23T22:57:32 CDT" name="close" finished-at="2024-03-23T22:57:32 CDT" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.LoginTest -->
+      <class name="pageObjects.TestFour">
+        <test-method signature="TestFourMed()[pri:0, instance:pageObjects.TestFour@5b239d7d]" started-at="2024-03-23T22:57:32 CDT" name="TestFourMed" finished-at="2024-03-23T22:57:32 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFourMed -->
+      </class> <!-- pageObjects.TestFour -->
+      <class name="pageObjects.TestTwo">
+        <test-method signature="TestTworMed()[pri:0, instance:pageObjects.TestTwo@7ec7ffd3]" started-at="2024-03-23T22:57:32 CDT" name="TestTworMed" finished-at="2024-03-23T22:57:32 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTworMed -->
+      </class> <!-- pageObjects.TestTwo -->
+      <class name="pageObjects.TestThree">
+        <test-method signature="TesThreeMed()[pri:0, instance:pageObjects.TestThree@6572421]" started-at="2024-03-23T22:57:32 CDT" name="TesThreeMed" finished-at="2024-03-23T22:57:32 CDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TesThreeMed -->
+      </class> <!-- pageObjects.TestThree -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
